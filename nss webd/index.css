@@ -1,0 +1,281 @@
+body{
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+}
+
+.nav-bar{
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: white;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+
+.sub-nav-1, .sub-nav-2{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.texts{
+    display: flex;
+    margin-right: 45px;
+    cursor: pointer;
+    transition: 0s ease-in;
+    height: 100%;
+    align-items: center;
+
+}
+
+.texts:hover{
+    text-decoration: underline 2px;
+    color: rgb(255, 112, 11);
+    text-underline-offset: 17px;
+}
+
+.t_img{
+    overflow: hidden;
+    width: 100%;
+}
+
+.img_logo{
+    width: 30px;
+    padding: none;
+}
+
+.icons{
+    cursor: pointer;
+    width: 25px;
+    margin-right: 45px;
+}
+
+.top-image{
+    margin-top: 50px;
+    position: relative;
+}
+
+.header-overlay{
+    padding: 3%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    bottom: 10%;
+}
+
+.head{
+    font-size: 2rem;
+}
+
+.btn-head{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.btn-head-2{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.btn-head:hover{
+    opacity: 0.6;
+}
+
+.btn-head-2:hover{
+    opacity: 0.6;
+}
+
+.middle-image{
+    height: 70vh;
+    display: flex;
+}
+.image-1{
+    object-fit: cover;
+    display: inline-block;
+    width: 50vw;
+    margin: 5px;
+    position: relative;
+
+}
+.image-2{
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+    width: 25vw;
+    margin: 5px;
+}
+
+.image-3{
+    display: inline-block;
+    object-fit: cover;
+    width: 25vw;
+    margin: 5px;
+}
+
+.centered-overlay {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    left: 25%;
+}
+
+.centered-overlay div{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.tv-image, .laptop-image{
+    
+    overflow: clip;
+    height: 100%;
+}
+
+.trimmer-image{
+    height:70%;
+}
+
+.cce{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.care, .center-exchange{
+    height: 100%;
+}
+
+.sub-div{
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text{
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+.sub-div img{
+    display: block;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.care{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 1em;
+}
+
+.center-exchange{
+    width: 50%;
+}
+
+.one{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+    footer{
+        display: flex;
+        background-color: #191919;
+        color: white;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    
+    .vertical{
+        margin-right: 40px;
+    }
+    
+    .vertical a{
+        text-decoration: none;
+        color: #898989;
+    }
+    
+    .vertical a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    
+    input{
+        font-family: 'Noto Sans', sans-serif;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid white;
+        background-color: #191919;
+        width: 100%;
+    }
+
+    .vertical-right{
+        width: 316px;
+    }
+
+.social img{
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.get-app{
+    display: flex;
+    border: 1px solid white;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.get-app img{
+    width: 90px;
+    border-radius: 5px;
+}
+
+.get-app div{
+    font-size: 13px;
+    margin: 20px;
+}
+
+.extra{
+    font-size: 1.4rem;
+    height: 20%;
+    background-color: white;
+    padding-top: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
